@@ -11,7 +11,7 @@
 .noise {
   position: fixed;
   inset: 0;
-  background-image: url("/assets//noise.png");
+  background-image: url("/weapons-galery/assets//noise.png");
   background-color: transparent;
   background-repeat: repeat;
   background-position-x: 0;
