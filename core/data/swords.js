@@ -1,0 +1,107 @@
+export const swords = [
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/akaviri-sword.webp",
+    name: "Akaviri Sword",
+    type: "sword",
+    slot: "hand",
+    damage: 11,
+    weight: 10,
+    cost: 300,
+    enhancers: null,
+    description:
+      "The Akaviri Sword is a traditional weapon known for its sharpness and precision. This sword, often used by the Blades, is a symbol of their skill and dedication. Its elegant design and balanced weight make it a favorite among sword enthusiasts. The craftsmanship reflects the rich history and culture of the Akaviri, who are known for their martial prowess and artistry in weapon making.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/ancient-nord-sword.webp",
+    name: "Ancient Nord Sword",
+    type: "sword",
+    slot: "hand",
+    damage: 8,
+    weight: 12,
+    cost: 13,
+    enhancers: [
+      { name: "Steel Ingot", count: 2, delimiter: "x" },
+      { name: "Leather Strips", count: 2, delimiter: "x" },
+    ],
+    description:
+      "The Ancient Nord Sword is a relic from the past, wielded by the warriors of Skyrim's early history. It is characterized by its rugged design and durability. Despite its age, it remains a reliable weapon in battle. Enhancements with steel ingots and leather strips can improve its effectiveness, making it a valuable asset for those who appreciate the legacy of the Nords.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/daedric-sword.webp",
+    name: "Daedric Sword",
+    type: "sword",
+    slot: "hand",
+    damage: 14,
+    weight: 16,
+    cost: 1250,
+    enhancers: [
+      { name: "Ebony Ingot", count: 2, delimiter: "x" },
+      { name: "Leather Strip", count: 1, delimiter: "x" },
+      { name: "Daedra Heart", count: 1, delimiter: "x" },
+    ],
+    description:
+      "The Daedric Sword is a powerful weapon forged from ebony and Daedra hearts, known for its dark power. This sword is not only visually striking but also incredibly lethal, capable of dealing significant damage. It is often sought after by those who wish to harness the formidable power of the Daedra. Enhancements with ebony ingots, leather strips, and Daedra hearts further increase its potency.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/dawnbreaker.webp",
+    name: "Dawnbreaker",
+    type: "sword",
+    slot: "either hand",
+    damage: 13,
+    weight: 10,
+    cost: 740,
+    enhancers: [{ name: "Ebony Ingot", count: 1, delimiter: "x" }],
+    description:
+      "Dawnbreaker is a unique sword that burns undead enemies, bestowed by the Daedric Prince Meridia. This weapon is revered for its ability to light up the darkest places and purify them with its holy flame. It is particularly effective against creatures of the night, making it an invaluable tool for any warrior facing undead foes. An ebony ingot can be used to maintain its sharpness and brilliance.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/ebony-sword.webp",
+    name: "Ebony Sword",
+    type: "sword",
+    slot: "hand",
+    damage: 13,
+    weight: 15,
+    cost: 720,
+    enhancers: [
+      { name: "Ebony Ingot", count: 2, delimiter: "x" },
+      { name: "Leather Strip", count: 1, delimiter: "x" },
+    ],
+    description:
+      "The Ebony Sword is a high-quality weapon made from ebony, offering excellent damage and durability. It is a favorite among seasoned warriors who value strength and resilience in battle. This sword's sleek design and formidable power make it a symbol of prestige. Enhancements with ebony ingots and leather strips can further enhance its performance, ensuring it remains a reliable companion in any conflict.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/forsworn-sword.webp",
+    name: "Forsworn Sword",
+    type: "sword",
+    slot: "either hand",
+    damage: 11,
+    weight: 13,
+    cost: 70,
+    enhancers: [{ name: "Steel Ingot", count: 1, delimiter: "x" }],
+    description:
+      "The Forsworn Sword is a crude weapon used by the Forsworn, known for its unique design and origin. Despite its rough appearance, it is effective in battle and embodies the rugged spirit of the Forsworn warriors. This sword can be enhanced with a steel ingot, increasing its damage and reliability. It is a testament to the resourcefulness and tenacity of its wielders.",
+  },
+  {
+    id: crypto.randomUUID(),
+    image: "/assets/weapons/swords/glass-sword.webp",
+    name: "Glass Sword",
+    type: "sword",
+    slot: "either hand",
+    damage: 13,
+    weight: 14,
+    cost: 410,
+    enhancers: [
+      { name: "Refined Moonstone", count: 1, delimiter: "x" },
+      { name: "Refined Malachite", count: 1, delimiter: "x" },
+      { name: "Leather Strip", count: 1, delimiter: "x" },
+    ],
+    description:
+      "The Glass Sword is a beautifully crafted weapon made from refined moonstone and malachite. Known for its light weight and sharpness, this sword is favored by those who appreciate both form and function. Its translucent blade and elegant design make it a prized possession. Enhancements with refined moonstone, malachite, and leather strips ensure it performs exceptionally well in combat, combining beauty with deadly efficiency.",
+  },
+];
