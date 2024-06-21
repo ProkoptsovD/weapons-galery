@@ -1,5 +1,5 @@
 :root {
-  --grain-size: 700px;
+  --grain-size: 200px;
   --noise-speed: 0.3s;
 }
 
@@ -17,7 +17,7 @@
   background-position-x: 0;
   background-position-y: 0;
   background-size: var(--grain-size) var(--grain-size);
-  animation: noise var(--noise-speed, 0.2s) infinite;
+  /* animation: noise var(--noise-speed, 0.2s) infinite; */
   opacity: 0.9;
   visibility: visible;
   z-index: -1;
