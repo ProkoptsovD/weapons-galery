@@ -1,7 +1,7 @@
 export const swords = [
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/akaviri-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/akaviri-sword.webp",
     name: "Akaviri Sword",
     type: "sword",
     slot: "hand",
@@ -14,7 +14,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/ancient-nord-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/ancient-nord-sword.webp",
     name: "Ancient Nord Sword",
     type: "sword",
     slot: "hand",
@@ -30,7 +30,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/daedric-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/daedric-sword.webp",
     name: "Daedric Sword",
     type: "sword",
     slot: "hand",
@@ -47,7 +47,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/dawnbreaker.webp",
+    image: "/weapons-galery/assets/weapons/swords/dawnbreaker.webp",
     name: "Dawnbreaker",
     type: "sword",
     slot: "either hand",
@@ -60,7 +60,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/ebony-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/ebony-sword.webp",
     name: "Ebony Sword",
     type: "sword",
     slot: "hand",
@@ -76,7 +76,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/forsworn-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/forsworn-sword.webp",
     name: "Forsworn Sword",
     type: "sword",
     slot: "either hand",
@@ -89,7 +89,7 @@ export const swords = [
   },
   {
     id: crypto.randomUUID(),
-    image: "/assets/weapons/swords/glass-sword.webp",
+    image: "/weapons-galery/assets/weapons/swords/glass-sword.webp",
     name: "Glass Sword",
     type: "sword",
     slot: "either hand",
